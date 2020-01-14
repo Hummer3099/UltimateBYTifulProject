@@ -7,6 +7,8 @@ namespace BYT11_12
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            User user1 = new User("Active");
+            Console.WriteLine(user1.GetAccount_Status());
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\bin\Debug\netcoreapp3.1\BYT11_12.exe
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\bin\Debug\netcoreapp3.1\BYT11_12.deps.json
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\bin\Debug\netcoreapp3.1\BYT11_12.runtimeconfig.json
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\bin\Debug\netcoreapp3.1\BYT11_12.runtimeconfig.dev.json
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\bin\Debug\netcoreapp3.1\BYT11_12.dll
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\bin\Debug\netcoreapp3.1\BYT11_12.pdb
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\obj\Debug\netcoreapp3.1\BYT11_12.csprojAssemblyReference.cache
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\obj\Debug\netcoreapp3.1\BYT11_12.AssemblyInfoInputs.cache
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\obj\Debug\netcoreapp3.1\BYT11_12.AssemblyInfo.cs
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\obj\Debug\netcoreapp3.1\BYT11_12.dll
+C:\Users\Abeed\source\repos\BYT11_12\UltimateBYTifulProject\BYT11_12\BYT11_12\obj\Debug\netcoreapp3.1\BYT11_12.pdb
