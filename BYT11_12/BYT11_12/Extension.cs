@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Extension : Rentals
+public class Extension : Rental
 {
     public DateTime ExtensionDate { get; set; }
     public DateTime ExtensionPeriod = 14;
