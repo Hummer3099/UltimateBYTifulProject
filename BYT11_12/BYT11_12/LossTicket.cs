@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BYT11_12
 {
-    class LossTicket
+    public class LossTicket
     {
         public DateTime SubmissionDate { get; set; }
         public double Fine { get; set; }
@@ -12,6 +12,10 @@ namespace BYT11_12
         {
             this.SubmissionDate = DateTime.ParseExact(submissionDate, "dd/MM/yyyy", null);
             this.Fine = fine;
+        }
+        public void SetSubmissionDate(string newDate)
+        {
+            this.SubmissionDate = DateTime.ParseExact(newDate, "dd/MM/yyyy", null); ;
         }
     }
 }

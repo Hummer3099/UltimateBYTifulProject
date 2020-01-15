@@ -6,12 +6,12 @@ public class Rental
     public DateTime DueDate { get; set; }
     public DateTime ReturnDate { get; set; }
 
-	public Rental(DateTime dueDate, DateTime returnDate)
-	{
+    public Rental(DateTime dueDate, DateTime returnDate)
+    {
         this.RentDate = DateTime.Now;
         this.DueDate = DateTime.ParseExact(dueDate, "dd/MM/yyyy", null);
         this.ReturnDate = DateTime.ParseExact(returnDate, "dd/MM/yyyy", null);
-	}
+    }
 
     public void ChangeReturnDate(DateTime newReturnDate)
     {

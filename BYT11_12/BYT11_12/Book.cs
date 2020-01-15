@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BYT11_12
 {
-    class Book
+    public class Book
     {
         public string Title { get; set; }
         public string Author { get; set; }
@@ -12,7 +12,7 @@ namespace BYT11_12
         public string Descritpion { get; set; }
         public string Location { get; set; }
         public string Genre { get; set; }
-        public string BookStatus { get; set; }
+        public string BookStatus;
         public Book(string title, string author, string publicationDate, string description, string location, string genre, string bookStatus)
         {
             this.Title = title;
@@ -23,6 +23,36 @@ namespace BYT11_12
             this.Genre = genre;
             this.BookStatus = bookStatus;
         }
-        
+        public void SetBookStatus(string s)
+        {
+            if (s == "Available" || s == "Unavailable")
+            {
+                this.BookStatus = s;
+            }
+            else
+            {
+                Console.WriteLine("Invalid status");
+            }
+        }
+        public string GetBookStatus()
+        {
+            return BookStatus;
+        }
+
+        public void SetPublicationDate(string newDate)
+        {
+            this.PublicationDate = DateTime.ParseExact(newDate, "dd/MM/yyyy", null); ;
+        }
+        public bool IsAvailable()
+        {
+            if (BookStatus == "Available")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
