@@ -4,13 +4,15 @@ using System.Text;
 
 namespace BYT11_12
 {
-    class Admin
+    class Admin : Employee
     {
-        //Employee emp {get; set;}
-
-        /*public Person AddPerson(string name, string surname, string dOb, string phoneNo, string email)
+        public Admin(string firstName, string surname, string dateOfBirth, string phoneNumber, string email,
+        double salary, string position) : base(firstName, surname, dateOfBirth, phoneNumber, email, salary, position)
+        {
+        }
+        public Person AddPerson(string name, string surname, string dOb, string phoneNo, string email)
         {
             return new Person(name, surname, dOb, phoneNo, email);
-        }*/
+        }
     }
 }
