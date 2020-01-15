@@ -4,15 +4,13 @@ using System.Text;
 
 namespace BYT11_12
 {
-    public class User
+    public class User : Person
     {
-        //Person person;
         private string Account_Status;
 
-        public User(string accounts)
+        public User(string firstName, string surname, string dateOfBirth, string phoneNumber, string email, string status) : base(firstName, surname, dateOfBirth, phoneNumber, email)
         {
-            //Add Person whenever the Person class is ready
-            SetAccount_Status(accounts);
+            SetAccount_Status(status);
         }
         public void SetAccount_Status(string s)
         {

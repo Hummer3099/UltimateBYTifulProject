@@ -6,7 +6,9 @@ public class Employee : Person
     public string Position { get; set; }
     public DateTime DateOfEmployment { get; set; }
 
-    public Employee(double salary, string position)
+    public Employee(string firstName, string surname, string dateOfBirth, string phoneNumber, string email,
+        double salary, string position) : base(firstName, surname, dateOfBirth,
+            phoneNumber, email)
     {
         this.Salary = salary;
         this.Position = position;

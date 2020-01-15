@@ -6,11 +6,11 @@ namespace UnitTestProject1
     [TestClass]
     public class UserTests
     {
+        User user = new User("Lee", "Everett","21/05/1997", "545218141", "sth@goo.com" , "Active");
         [TestMethod]
         public void IsUserActivePositive()
         {
             bool expected = true;
-            User user = new User("Active");
 
             bool actual = user.IsActive();
 
@@ -19,8 +19,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void IsUserDeactivated()
         {
+            user.SetAccount_Status("Deactivated");
             bool expected = false;
-            User user = new User("Deactivated");
 
             bool actual = user.IsActive();
 
@@ -30,8 +30,6 @@ namespace UnitTestProject1
         public void IsUsingCorrectStatus()
         {
             string expected = "Active";
-            User user = new User("Active");
-
             string actual = user.GetAccount_Status();
 
             Assert.AreEqual(expected, actual, "Something went wrong");
