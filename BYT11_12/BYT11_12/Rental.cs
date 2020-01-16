@@ -43,6 +43,6 @@ public class Rental
     }
     public void SetReturnDate(string newDate)
     {
-        this.DueDate = DateTime.ParseExact(newDate, "dd/MM/yyyy", null);
+        this.ReturnDate = DateTime.ParseExact(newDate, "dd/MM/yyyy", null);
     }
 }
